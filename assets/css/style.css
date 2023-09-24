@@ -1,0 +1,233 @@
+/* 
+    Theme: E-School
+    Author: Hafeza 
+    Live URL:
+
+    Primary Color: #21B573
+    Secondery Color: #413960
+
+    Font-style
+    font-family: 'Poppins', sans-serif;
+*/
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Global CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2,h3,h4,h5,h6, p, ul, li, a{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Header Section Start */
+.header-section{
+    background: #F0FFF0;
+    padding: 15px 0;
+    min-height: 100vh;
+}
+    /* Navbar Start */
+.navbar .nav-item{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 45px;
+    transition: all .4s ease-in-out;
+    color: #000000;
+    background: transparent;
+}
+.navbar .nav-item .nav-link{
+    
+    transition: all .4s ease-in-out;
+}
+.navbar .nav-item .nav-link:hover{
+ 
+}
+.navbar .nav-item:hover{
+
+}
+
+
+    /* Navbar End */
+.header-section h5{
+    color: #FD511A;
+    font-size: 18px;
+}
+.header-section h1{
+    font-size: 62px;
+    font-weight: 700;
+}
+.header-section h1 span{
+    color: #21B573;
+}
+.header-section p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+.header-section .btn-start{
+    background: #21B573;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 25px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    margin-top: 15px;
+    transition: all .4s ease-in-out;
+}
+.header-section .btn-start:hover{
+    background: #56548C;
+}
+/* Header Section End */
+
+/* Feature Item Start */
+.feature-section{
+    padding: 70px 0;
+}
+.feature-item{
+    text-align: center;
+    background: #F8FFFB;
+    padding: 30px 0;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+}
+.feature-item:hover{
+    box-shadow: 0px 20px 40px 0px #0000001A;
+    background-color: #fff;
+}
+.feature-item img{
+    width: 70px;
+}
+.feature-item h4{
+    color: #413960;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.feature-item p{
+    color: #585859;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+/* Feature Item End */
+
+/* Course Section Start */
+.course-section{
+    padding: 70px 0;
+}
+.course-section h2{
+    text-align: center;
+    color: #413960;
+    font-size: 36px;
+    font-weight: 700;
+}
+.course-item{
+    box-shadow: 0px 10px 40px 0px #0000001A;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 40px;
+}
+.course-item img{
+
+}
+.course-item h4{
+    color: #413960;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 15px;
+}
+.course-item p{
+    color: #585859;
+    font-size: 18px;
+    font-weight: 400;
+}
+.course-item .btn-course{
+    background: #21B573;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 15px 0;
+}
+.course-item ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.course-item ul li{
+    color: #585859;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 10px 0 5px 0px;
+}
+.course-item ul li i{
+    margin-right: 5px;
+}
+/* Course Section End */
+
+/* Testimonial Section Start */
+.testimolial-section{
+    padding: 70px 0;
+}
+.testimolial-section h2{
+    color: #413960;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 35px;
+}
+.testimolial-section img{
+    width: 100px;
+}
+.testimolial-section p{
+    color: #000000;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+}
+/* Testimonial Section End */
+
+/* Footer Section Start */
+footer{
+    background: #282531;
+    color: #fff;
+    padding: 70px 0 30px 0;
+}
+footer p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+footer h4{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+footer .copyright p{
+    color: #CDCDCD;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 60px;
+}
+/* Footer Section End */
